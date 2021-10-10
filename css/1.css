@@ -25,9 +25,9 @@ ul li a{
     position: relative;
     display: block;
     text-align: center;
-    margin: 0 30px;
+    margin: 0 1em;
     color: #333;
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
 }
 ul:hover li{
