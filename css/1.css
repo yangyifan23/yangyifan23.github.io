@@ -5,6 +5,8 @@
 body{
     height: 100vh;
     background: linear-gradient(200deg,#dad4ec,#f3e7e9);
+    background-image: url("../images/bg.jpg");
+    
 }
 ul{
     position: absolute;
