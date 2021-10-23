@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+th{
+    background-color: darkslategrey;
+    color:#FFFFFF;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+.bgcolor1{
+    background-color: rgb(209, 207, 207);
+}
+.bgcolor2{
+    background-color: rgb(224, 214, 118);
+}

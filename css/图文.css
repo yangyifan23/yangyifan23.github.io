@@ -1,0 +1,62 @@
+img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+dl{
+    width: 856px;
+    height: 430px;
+    margin: 0 auto;
+    padding: 12px 0 0 12px;
+    border: 1px solid #ccc;
+    border-top-style: dotted;
+    list-style: none;
+}
+dl dt{
+    float: left;
+    margin: 0 12px 12px 0;
+    display: inline;
+}
+dl dt a{
+    display: block;
+    width: 202px;
+    height: 210px;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+dl dt a strong{
+    display: block;
+    width: 202px;
+    height: 30px;
+    line-height: 15px;
+    font-weight: 100;
+    color: #333;
+    overflow: hidden;
+}
+dl dt a span{
+    display: block;
+    width: 202px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+}
+dl dt a span em{
+    font-style: normal;
+    font-weight: 800;
+    color: #666;
+}
+dl dt a:hover img{
+    border-color: #f33;
+}
+dl dt a:hover strong{
+    color: #03c;
+}
+dl dt a:hover span em{
+    color: #f00;
+}
