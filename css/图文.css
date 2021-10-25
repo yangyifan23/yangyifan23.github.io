@@ -11,10 +11,9 @@ body{
 dl{
     width: 856px;
     height: 430px;
-    margin: 0 auto;
+    margin: 18px auto;
     padding: 12px 0 0 12px;
     border: 1px solid #ccc;
-    border-top-style: dotted;
     list-style: none;
 }
 dl dt{
