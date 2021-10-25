@@ -13,7 +13,7 @@ ul{
     left: 50%;
     transform: translate(-50%,-50%);
     display:flex;
-    margin: 18px;
+    margin: auto;
     padding: 0;
 }
 ul li{
@@ -25,9 +25,9 @@ ul li a{
     position: relative;
     display: block;
     text-align: center;
-    margin: 0em 1em;
+    margin: 0em 0.5em;
     color: #333;
-    font-size: 1.7vw;
+    font-size: 20px;
     text-decoration: none;
 }
 ul:hover li{
