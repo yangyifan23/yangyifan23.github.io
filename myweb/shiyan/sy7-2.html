@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width:400px;
+            margin:200px auto;
+        }
+        img{
+            width: 250px;
+            height: 280px;
+        }
+    </style>
+    <script type="text/javascript">
+        function my_open()
+        {
+            let my_image=document.getElementById("my_img");
+            my_image.src="/js/20191013125748427.jpg";
+        }
+        function my_close()
+        {
+            let my_image=document.getElementById("my_img");
+            my_image.src="/js/20191013125600919.jpg";
+        }
+    </script>
+</head>
+<body>
+<div>
+    <button onclick="my_close()" >关灯</button>
+    <img id="my_img" src="/js/20191013125600919.jpg" alt="#" />
+    <button onclick="my_open()" >开灯</button>
+</div>
+</body>
+</html>
