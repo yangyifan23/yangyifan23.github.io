@@ -1,0 +1,30 @@
+.lls{
+    width: 90px; 
+    height: 90px; 
+    background-color: aqua ;
+    border-radius: 90px;
+    border: none
+}
+.mig1{
+    border:1px #eee solid;
+    border-radius: 5px;
+    height:30%;
+    width:365px;
+    display: block;
+    margin:10px 0;
+    padding:3px;
+}
+.wen1{
+    width: 365px;
+    margin-left: 110px;
+}
+.wen2{
+    width: 365px;
+    position: relative;
+    left: 670px;
+    top: -300px;
+}
+.resume h4{
+    color: aqua;
+}
+
