@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>俄罗斯方块</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="left">
+        <p>分数(Score)：<span id="score">00000</span></p>
+        <p>已消灭(Rows)：<span id="rows">0</span></p>
+        <p id="guide">
+          操作方法：<br />
+          ↑&nbsp;&nbsp;：方块顺时针变形<br />←：方块向左移动<br />→：方块向右移动<br />↓&nbsp;&nbsp;：方块加速掉落
+        </p>
+      </div>
+      <div id="centre">
+        <div id="mask"></div>
+        <div id="game-over">游戏结束</div>
+        <a id="start" href="javascript:play();">开始游戏</a>
+        <a id="restart" href="javascript:play();">再来一次</a>
+        <canvas id="game"> </canvas>
+      </div>
+      <div id="right">
+        <p id="next-msg">下一枚方块(Next):</p>
+        <canvas id="next"></canvas>
+      </div>
+    </div>
+
+    <!-- 数据 -->
+    <script src="data.js"></script>
+    <!-- 游戏逻辑 -->
+    <script src="logic.js"></script>
+    <!-- 绘图工具 -->
+    <script src="drawing.js"></script>
+    <!-- 控制器 -->
+    <script src="controller.js"></script>
+
+    <script>
+      // 游戏界面会不停地刷新，每秒刷新60次
+      // 每次刷新时，会将发生了变化的内容进行重新绘制
+      // 界面上的内容会以数据的形式保存起来
+      // 当界面刷新时，会将已经发生改变的内容抹掉，再根据数据重新进行绘制
+      // 当玩家进行操作时，会按照游戏逻辑、游戏规则改变相应的数据
+      // 不同的游戏，其逻辑和规则都有所不同
+      // 复杂一点的逻辑，则需要使用到一些比较高深的算法或数学计算
+      // 在下一次刷新时，界面就会发生相应的变化
+
+      // 游戏初始化
+      gameInit();
+      // 监听玩家的操作
+      listenPlayer();
+      // 开始游戏循环的第一帧
+      gameLoop();
+    </script>
+  </body>
+</html>
