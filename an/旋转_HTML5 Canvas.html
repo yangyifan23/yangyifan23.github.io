@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>旋转_HTML5 Canvas</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script>
+(function (cjs, an) {
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [];
+(lib.AnMovieClip = function(){
+	this.actionFrames = [];
+	this.ignorePause = false;
+	this.gotoAndPlay = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
+	}
+	this.play = function(){
+		cjs.MovieClip.prototype.play.call(this);
+	}
+	this.gotoAndStop = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndStop.call(this,positionOrLabel);
+	}
+	this.stop = function(){
+		cjs.MovieClip.prototype.stop.call(this);
+	}
+}).prototype = p = new cjs.MovieClip();
+// symbols:
+// helper functions:
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+(lib.元件1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// 图层_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("AgOG6QgYgdgThXQgbiEAAi6QAAi6AbiEQAciDAnAAQAoAAAbCDQACAIABAHIAFAc");
+	this.shape.setTransform(118.55,44.225);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#00FF66").s().p("AhFQoQgbiEgBi6QAAi6AciDQAbiEAoAAQAmAAAcCEQAcCDgBC6QABC6gcCEQgcCDgmAAQgoAAgbiDgALBMeQhwhJiFiDQiEiDhJhxQhJhxAbgcQAcgbBxBJQBxBJCDCEQCFCDBJBwQBKBxgcAcQgIAHgOAAQglAAhSg1gAtONLQgbgbBIhxQBJhxCEiDQCCiEBxhJQBxhJAbAbQAcAchJBxQhJBwiDCEQiDCDhwBKQhSA1glAAQgOAAgIgIgAGuBBQiEgbAAgnQAAgnCEgcQCDgcC6AAQC7AACEAcQCEAcgBAnQABAniEAbQiEAci7AAQi6AAiDgcgAwpBAQiEgcAAgmQAAgnCEgcQCDgcC6AAQC6AACDAcQCDAbABAoQgBAmiDAcQiDAbi6AAQi6AAiDgbgAlfkCQhwhJiDiDQiEiDhKhwQhIhwAbgcQAcgcBwBKQBwBICECDQCECDBIBwQBKBwgcAcQgIAIgOAAQglAAhRg1gADSjVQgbgbBJhyQBJhwCEiEQCEiEBxhKQBxhJAbAcQAcAchJBwQhKByiECEQiDCDhxBJQhSA2glAAQgOAAgIgIgAgbk8QgWgfgRhTQgciDAAi6QAAi5AciDQAbiDAnAAQAmAAAcCDIACAJIAFAcIATDHQACAnAAApQAAC6gcCDQgbCDgnAAQgOAAgNgRg");
+	this.shape_1.setTransform(119.75,120.175);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = getMCSymbolPrototype(lib.元件1, new cjs.Rectangle(0,-1,239.5,240.7), null);
+// stage content:
+(lib.旋转_HTML5Canvas = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// 图层_1
+	this.instance = new lib.元件1();
+	this.instance.setTransform(458.7,280.55,1,1,0,0,0,119.8,119.6);
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("AgPG6QgXgdgThXQgbiEAAi6QAAi6AbiEQAdiDAmAAQAnAAAcCDQADAMACAMIADAT");
+	this.shape.setTransform(457.45,205.175);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#00FF66").s().p("AhEQoQgdiEAAi6QAAi6AciDQAbiEAnAAQAnAAAcCEQAbCDABC6QAAC6gbCEQgcCDgnAAQgnAAgbiDgALCMeQhxhJiEiDQiFiDhJhxQhJhxAcgcQAcgbBwBJQBwBJCFCEQCDCDBKBwQBJBxgbAcQgIAHgOAAQglAAhRg1gAtONLQgcgbBKhxQBIhxCDiDQCDiEBxhJQBwhJAcAbQAcAchJBxQhJBwiDCEQiDCDhxBKQhRA1glAAQgOAAgIgIgAGuBBQiEgbAAgnQAAgnCEgcQCDgcC7AAQC6AACEAcQCDAcABAnQgBAniDAbQiEAci6AAQi7AAiDgcgAwqBAQiDgcABgmQgBgnCDgcQCEgcC6AAQC6AACDAcQCEAbgBAoQABAmiEAcQiDAbi6AAQi6AAiEgbgAlfkCQhwhJiEiDQiDiDhJhwQhKhwAcgcQAcgcBvBKQBxBICECDQCECDBIBwQBKBwgcAcQgIAIgOAAQglAAhRg1gADSjVQgcgbBKhyQBKhwCDiEQCEiEBxhKQBxhJAcAcQAcAchKBwQhJByiECEQiECDhxBJQhSA2glAAQgOAAgIgIgAgbk8QgWgfgShTQgbiDAAi6QAAi5AbiDQAbiDAoAAQAmAAAcCDIAEASIADASIATDIQACAnAAApQAAC6gcCDQgcCDgmAAQgOAAgNgRg");
+	this.shape_1.setTransform(458.65,281.125);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.shape_1},{t:this.shape}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({rotation:12.8571},0).wait(1).to({rotation:25.7143},0).wait(1).to({rotation:38.5714,x:458.65},0).wait(1).to({rotation:51.4286},0).wait(1).to({rotation:64.2857,y:280.6},0).wait(1).to({rotation:77.1429,y:280.55},0).wait(1).to({rotation:90,y:280.6},0).wait(1).to({rotation:102.8571,x:458.6},0).wait(1).to({rotation:115.7143},0).wait(1).to({rotation:128.5714,y:280.55},0).wait(1).to({rotation:141.4286},0).wait(1).to({rotation:154.2857,x:458.55},0).wait(1).to({rotation:167.1429,x:458.6},0).wait(1).to({rotation:180},0).wait(1).to({rotation:192.8571,x:458.55,y:280.5},0).wait(1).to({rotation:205.7143},0).wait(1).to({rotation:218.5714,x:458.6},0).wait(1).to({rotation:231.4286},0).wait(1).to({rotation:244.2857,y:280.45},0).wait(1).to({rotation:257.1429,y:280.5},0).wait(1).to({rotation:270,x:458.65},0).wait(1).to({rotation:282.8571,y:280.45},0).wait(1).to({rotation:295.7143},0).wait(1).to({rotation:308.5714,y:280.5},0).wait(1).to({rotation:321.4286},0).wait(1).to({rotation:334.2857,x:458.7},0).wait(1).to({rotation:347.1429,x:458.65},0).wait(1).to({rotation:360,x:458.7,y:280.55},0).to({_off:true},1).wait(1));
+	this._renderFirstFrame();
+}).prototype = p = new lib.AnMovieClip();
+p.nominalBounds = new cjs.Rectangle(978.1,520,-398.80000000000007,-118.80000000000001);
+// library properties:
+lib.properties = {
+	id: 'D07CF7F3EAB84A41AA1DC9297945EB0F',
+	width: 1280,
+	height: 720,
+	fps: 30,
+	color: "#FFFFFF",
+	opacity: 1.00,
+	manifest: [],
+	preloads: []
+};
+// bootstrap callback support:
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+an.compositions = an.compositions || {};
+an.compositions['D07CF7F3EAB84A41AA1DC9297945EB0F'] = {
+	getStage: function() { return exportRoot.stage; },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
+	var lastW, lastH, lastS=1;		
+	window.addEventListener('resize', resizeCanvas);		
+	resizeCanvas();		
+	function resizeCanvas() {			
+		var w = lib.properties.width, h = lib.properties.height;			
+		var iw = window.innerWidth, ih=window.innerHeight;			
+		var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+		if(isResp) {                
+			if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+				sRatio = lastS;                
+			}				
+			else if(!isScale) {					
+				if(iw<w || ih<h)						
+					sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==1) {					
+				sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==2) {					
+				sRatio = Math.max(xRatio, yRatio);				
+			}			
+		}
+		domContainers[0].width = w * pRatio * sRatio;			
+		domContainers[0].height = h * pRatio * sRatio;
+		domContainers.forEach(function(container) {				
+			container.style.width = w * sRatio + 'px';				
+			container.style.height = h * sRatio + 'px';			
+		});
+		stage.scaleX = pRatio*sRatio;			
+		stage.scaleY = pRatio*sRatio;
+		lastW = iw; lastH = ih; lastS = sRatio;            
+		stage.tickOnUpdate = false;            
+		stage.update();            
+		stage.tickOnUpdate = true;		
+	}
+}
+an.handleSoundStreamOnTick = function(event) {
+	if(!event.paused){
+		var stageChild = stage.getChildAt(0);
+		if(!stageChild.paused || stageChild.ignorePause){
+			stageChild.syncStreamSounds();
+		}
+	}
+}
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
+</script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("D07CF7F3EAB84A41AA1DC9297945EB0F");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.旋转_HTML5Canvas();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1280px; height:720px">
+		<canvas id="canvas" width="1280" height="720" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1280px; height:720px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+</html>
